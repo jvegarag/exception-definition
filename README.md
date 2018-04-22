@@ -1,5 +1,5 @@
-# exception-handling
-Provides a framework to handle the exceptions of an application.
+# exception-definition
+An exception hierarchy definition
 
 ## Exception handling strategy
 
