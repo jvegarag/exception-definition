@@ -15,7 +15,7 @@ import com.jvegarag.exception.definition.errors.AbstractErrorInfo;
 
 /**
  * An exception that do not produce rollback of a transaction
- * The transaction manager will be configured in order to not perform a rollback operation
+ * The transaction manager will be configured in order not to perform a rollback operation
  * when this exception is raised.
  * 
  * @author jvegarag
