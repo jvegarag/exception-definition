@@ -113,7 +113,7 @@ public void doSomething() {
 ```                                                   
 
 - **For alien exceptions (an exception thrown by a Java API or a third party library)**: Catch the checked alien exception and wrap it into an ApplicationException. Chose the proper ErrorInfo implementation and provide it with a descriptive message. Then you can throw it in order to perform the propagation to the next layer. 
-If the alien exception is unchecked, you should proceed in the same manner but only if you want to provide a different meaning for it. Otherwise, let it propagate to the upper la  
+If the alien exception is unchecked, you should proceed in the same manner but only if you want to provide a different meaning for it. Otherwise, let it propagate to the upper layer.
 
 - **For application exceptions (i.e. ApplicationException)**:  If there is not a fall-back strategy defined, you should only catch them if you can provide further information about the context (additional parameters or a more accurate description of what produced the error). Otherwise, let them propagate through the call stack. When wrapping an exception, it automatically stacks up the new ErrorInfo object into the internal stack so the original cause is preser
 
@@ -124,7 +124,7 @@ If the alien exception is unchecked, you should proceed in the same manner but o
 The exception hierarchy consists only of two unchecked application exceptions:
 
  - **ApplicationException**:  This unckecked exception will be generally used in order to raise an application exception. It does not provide any additional behaviour than the BaseException and it will produce a rollback operation when it is raised out of a transactional context.
- - **NoRollbackException**: The transaction manager will be configured in order to not perform a rollback operation when this exception is raised.
+ - **NoRollbackException**: The transaction manager will be configured in order not to perform a rollback operation when this exception is raised.
  
  
 ### Catching exceptions
