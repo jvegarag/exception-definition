@@ -226,8 +226,6 @@ public void performKeyIn(InspectionFile iofEntity) {
 
 ### Related links
 
-Checked and unchecked exceptions:
-
 - [http://www.ibm.com/developerworks/library/j-jtp05254](http://www.ibm.com/developerworks/library/j-jtp05254)
 - [http://tutorials.jenkov.com/java-exception-handling/checked-or-unchecked-exceptions.html](http://tutorials.jenkov.com/java-exception-handling/checked-or-unchecked-exceptions.html)
 - [http://littletutorials.com/2008/05/06/exceptional-java-checked-exceptions-are-priceless-for-everything-else-there-is-the-the-runtimeexception](http://littletutorials.com/2008/05/06/exceptional-java-checked-exceptions-are-priceless-for-everything-else-there-is-the-the-runtimeexception)
