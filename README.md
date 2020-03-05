@@ -1,5 +1,5 @@
 # exception-definition
-An exception hierarchy definition
+An exception hierarchy definition.
 
 ## Exception handling strategy
 
