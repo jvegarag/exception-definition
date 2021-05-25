@@ -5,10 +5,10 @@ An exception hierarchy definition.
 
 An exception handling strategy consists of all actions and conventions necessary to properly handle exceptions in your application. It typically consists of the following elements:
 
-1. Error detection
-2. Error information gathering
-3. Throwing and propagating the exception
-4. Catching and reacting to the exception: Notifying relevant parties
+1. Error detection.
+2. Error information gathering.
+3. Throwing and propagating the exception.
+4. Catching and reacting to the exception: Notifying relevant parties.
 
 ![exception hierarchy diagram](./doc/exception_hierachy.png)
 
