@@ -32,6 +32,10 @@
         <!-- THIRD PARTIES -->
         <commons-collections.version>3.2.1</commons-collections.version>
         <jackson-annotations.version>2.5.4</jackson-annotations.version>
+
+        <sonar.projectKey>jvegarag_exception-definition</sonar.projectKey>
+        <sonar.organization>jvegarag</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
